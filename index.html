@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body id="body">
+    <div class="fundo">
+        <div class="calculadora">
+            <h2>Calculadora</i></h2>
+            <p id="resultado"></p>
+                <table>                 
+                    <tr>
+                        <td><button class="botao" id="ac" onclick="">AC</td>
+                        <td><button class="botao" id="c" onclick="">C</td>
+                        <td><button class="botao botao-operadores" onclick="">/</button></td>
+                        <td><button class="botao botao-operadores" onclick="">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao botao-numero" onclick="">7</button></td>
+                        <td><button class="botao botao-numero" onclick="">8</button></td>
+                        <td><button class="botao botao-numero" onclick="">9</button></td>
+                        <td><button class="botao botao-operadores" onclick="">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao botao-numero" onclick="">4</button></td>
+                        <td><button class="botao botao-numero" onclick="">5</button></td>
+                        <td><button class="botao botao-numero" onclick="">6</button></td>
+                        <td><button class="botao botao-operadores" onclick="">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao botao-numero" onclick="">1</button></td>
+                        <td><button class="botao botao-numero" onclick="">2</button></td>
+                        <td><button class="botao botao-numero" onclick="">3</button></td>
+                        <td rowspan="2"><button class="botao" style="height: 106px;" onclick="">=</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="botao botao-numero" style="width: 106px;" onclick="">0</button></td>
+                        <td><button class="botao" onclick="">.</button></td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
