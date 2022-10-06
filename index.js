@@ -38,4 +38,4 @@ function clicou_operador(event) {
     }
     operacao_salva = event.target.innerHTML;
     resultado.innerHTML = event.target.innerHTML;
-}
+} 
